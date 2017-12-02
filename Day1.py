@@ -10,9 +10,6 @@ matches the fourth digit.
 91212129 produces 9 because the only digit that matches the next one is the last digit, 9.
 
 """
-from urllib.request import urlopen
-from bs4 import BeautifulSoup
-
 def consecutiveNumberSum(hugeNumber):
     sum = 0
     c = [int(i) for i in str(hugeNumber)]       #make a List of int containing every digit
